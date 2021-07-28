@@ -4,15 +4,21 @@ class logo:
     print('''\007
 
 \033[1;33m
-         _____           _    __  __
-        |_   _|__   ___ | |   \ \/ /
-          | |/ _ \ / _ \| |____\  /
-          | | (_) | (_) | |____/  \    
-          |_|\___/ \___/|_|   /_/\_\ \033[1;91mv2.1
-
+⢠⡤⢺⣿⣿⣿⣿⣿⣶⣄
+⠀⠀⠉⠀⠘⠛⠉⣽⣿⣿⣿⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⢉⣿⣿⣿⣿⡗
+⠀⢀⣀⡀⢀⣀⣤⣤⣽⣿⣼⣿⢇⡄
+⠀⠀⠙⠗⢸⣿⠁⠈⠋⢨⣏⡉⣳
+⠀⠀⠀⠀⢸⣿⡄⢠⣴⣿⣿⣿
+⠀⠀⠀⠀⠉⣻⣿⣿⣿⣿⣿⡟⡀
+⠀⠀⠀⠀⠐⠘⣿⣶⡿⠟⠁⣴⣿⣄
+⠀⠀⠀⠀⠀⠘⠛⠉⣠⣴⣾⣿⣿⣿⡦
+⠀⠀⢀⣴⣠⣄⠸⠿⣻⣿⣿⣿⣿⠏
+⠀⣠⣿⣿⠟ M.Kemal Atatürk 
+       ZeuS - Z Tool a Hoşgeldiniz
 
 \033[1;36m =============================================\033[1;m
-\033[1;33m|          Install Best Hacking Tool          |
+\033[1;33m|          En İyi Hack Aracını Yükle          |
 \033[1;36m =============================================\033[00m''')
 
   @classmethod
@@ -25,48 +31,48 @@ class logo:
   def not_ins(self):
     self.tool_header()
     print ('''
-\033[1;31m  [ + ]  \033[1;31mWe can't install Tool-X.\033[1;m
-\033[1;31m  [ + ]  \033[1;31mThere are some error.\033[1;m
-\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.\033[1;m''')
+\033[1;31m  [ + ]  \033[1;31mZeus-Z'i yükleyemiyorum.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mBazı hatalar var.\033[1;m
+\033[1;31m  [ + ]  \033[1;31mLütfen bir süre sonra yeniden deneyin.\033[1;m''')
     self.tool_footer()
 
   @classmethod
   def ins_tnc(self):
     self.tool_header()
     print ('''
-\033[1;33m  [ + ] \033[1;32mUse It At Your Own Risk.
-\033[1;33m  [ + ] \033[1;32mNo Warranty.
-\033[1;33m  [ + ] \033[1;32mUse it legal purpose only.
-\033[1;33m  [ + ] \033[1;32mWe are not responsible for your actions.
-\033[1;33m  [ + ] \033[1;32mDo not do things that are forbidden.
+\033[1;33m  [ + ] \033[1;32mKendi Riskinizle Kullanın.
+\033[1;33m  [ + ] \033[1;32mHerşeyden kendiniz sorumlusunuz. .
+\033[1;33m  [ + ] \033[1;32m.
+\033[1;33m  [ + ] \033[1;32mEylemlerinizden biz sorumlu değiliz.
+\033[1;33m  [ + ] \033[1;32mYasak olan şeyleri yapmayın.
 
-\033[1;31m If you are installing this tool.
- that means you are agree with all terms.''')
+\033[1;31m Bu aracı yüklüyorsanız.
+ bu, aynı fikirde olduğunuz anlamına gelir tüm terimlerle.''')
     self.tool_footer()
 
   @classmethod
   def ins_sc(self):
     self.tool_header()
     print ('''
-\033[1;33m    [ + ] \033[1;32mTool-X installed successfully.
-\033[1;33m    [ + ] \033[1;32mTo run Tool-X.
-\033[1;33m    [ + ] \033[1;32mType Tool-X in your terminal.''')
+\033[1;33m    [ + ] \033[1;32mZeuS-Z başarıyla yüklendi.
+\033[1;33m    [ + ] \033[1;32mZeus-Z'i çalıştırmak için.
+\033[1;33m    [ + ] \033[1;32mTerminal'inize ZeuSZ yazın.''')
     self.tool_footer()
 
   @classmethod
   def update(self):
     self.tool_header()
     print ('''
-\033[1;33m  [ 1 ] \033[1;32mUpdate your Tool-X.
-\033[1;33m  [ 0 ] \033[1;32mFor Back.\033[00m''')
+\033[1;33m  [ 1 ] \033[1;32mZeuS-Z'inizi güncelleştirin.
+\033[1;33m  [ 0 ] \033[1;32mGeri İçin.\033[00m''')
     self.tool_footer()
 
   @classmethod
   def updated(self):
     self.tool_header()
     print ('''
-\033[1;33m      [ + ] \033[1;32mTool-X Updated Successfully.
-\033[1;33m      [ + ] \033[1;32mPress Enter to continue.\033[00m''')
+\033[1;33m      [ + ] \033[1;32mZeuS-Z Başarıyla Güncelleştirildi.
+\033[1;33m      [ + ] \033[1;32mDevam etmek için Enter tuşuna basın.\033[00m''')
     self.tool_footer()
 
   @classmethod
