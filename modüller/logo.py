@@ -4,7 +4,7 @@ class logo:
     print('''\007
 
 \033[1;33m
-⢠⡤⢺⣿⣿⣿⣿⣿⣶⣄
+ ⢠⡤⢺⣿⣿⣿⣿⣿⣶⣄
 ⠀⠀⠉⠀⠘⠛⠉⣽⣿⣿⣿⣿⡇
 ⠀⠀⠀⠀⠀⠀⠀⢉⣿⣿⣿⣿⡗
 ⠀⢀⣀⡀⢀⣀⣤⣤⣽⣿⣼⣿⢇⡄
@@ -79,9 +79,9 @@ class logo:
   def nonet(self):
     self.tool_header()
     print ('''
-\033[1;31m  [ + ]  \033[1;31mNo network connection?\033[1;m
-\033[1;31m  [ + ]  \033[1;31mAre you offline?\033[1;m
-\033[1;31m  [ + ]  \033[1;31mPlease try again after some time.\033[00m''')
+\033[1;31m  [ + ]  \033[1;31mAğ bağlantısı yok?\033[1;m
+\033[1;31m  [ + ]  \033[1;31mÇevrimdışı mısınız??\033[1;m
+\033[1;31m  [ + ]  \033[1;31mLütfen bir süre sonra yeniden deneyin.\033[00m''')
     self.tool_footer()
 
   @classmethod
